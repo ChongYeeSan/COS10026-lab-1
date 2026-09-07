@@ -1,0 +1,24 @@
+body {background-color:antiquewhite;}
+
+p {background-color:lightsteelblue;}
+
+/* element selectors */
+h1 {background-color:honeydew; color:brown; font-size: 2em;}
+
+/* grouping/group selectors */
+h2, p {background-color:lavender;}
+
+/* id selector */
+#para2 {background-color:lightseagreen;}
+
+/* class seletor */
+.pinkbg {background-color:pink; color:blue;}
+
+p {background-color:lightsteelblue;}
+
+/* p::first-line {background-color:lightgoldenrodyellow;} */
+
+a{background-color:mediumorchid;}
+
+a:hover {background-color:azure;}
+
