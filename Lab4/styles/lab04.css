@@ -1,0 +1,126 @@
+/* filename: [your name]
+author: [your name]
+created : [enter date]
+last modified: [enter date]
+description: [html files it refers to (if known)]
+*/
+body {
+    font-family: calibri, sans-serif;
+    background-color:white;
+    margin: 20px;
+    color: black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:darkred;
+}
+
+/* Headings */
+h1{
+    color: purple;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color:turquoise;
+    margin-top: 20px;
+}
+
+h3 {
+    color: red;
+    margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Special character span */
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: gray;
+}
+
+dd {
+    margin-left: 20px;
+    color: gray;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th {
+  background-color: white;
+}
+
+/* Hyperlinks inside content */
+article a {
+  color: black;
+}
+
+article a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+/* Images */
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  max-width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
