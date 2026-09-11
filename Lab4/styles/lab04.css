@@ -1,126 +1,81 @@
-/* filename: [your name]
-author: [your name]
-created : [enter date]
-last modified: [enter date]
-description: [html files it refers to (if known)]
+/*
+filename: 
+author: 
+created: 
+last modified: 
+description: 
 */
-body {
+
+/*  Step 4: Element selectors  */
+
+* {
     font-family: calibri, sans-serif;
-    background-color:white;
-    margin: 20px;
     color: black;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-nav a {
-    margin: 0 10px;
-    color: blue;
-    text-decoration: none;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    color:darkred;
-}
-
-/* Headings */
-h1{
+h1 {
     color: purple;
-    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 h2 {
-    color:turquoise;
-    margin-top: 20px;
+    color: turquoise;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-h3 {
+/*  Group selectors  */
+
+aside, footer {
+    font-style: italic;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*  ID selectors */
+
+#images {
+    text-align: center;
+}
+
+#headings-title {
     color: red;
-    margin-top: 15px;
 }
 
-/* Paragraphs */
-p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
+/*  Class selectors  */
 
-/* Special character span */
 .special {
-    color: orange;
+    color: darkorange;
     font-weight: bold;
 }
 
-/* Lists */
-ul {
+.right-align {
+    text-align: right;
+}
+
+/*  Contextual selectors  */
+
+nav a {
+    text-decoration: none;
+    padding: 0.1em 0.6em;
+    border: 4px solid lightgray;
+}
+
+ol ul {
     list-style-type: square;
-    margin-left: 20px;
 }
 
-ol {
-    list-style-type: decimal;
-    margin-left: 20px;
+/*  Pseudo classes  */
+
+aside:hover {
+    display: none;
 }
 
-dl {
-    margin-left: 20px;
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
 }
-
-dt {
-    font-weight: bold;
-    color: gray;
-}
-
-dd {
-    margin-left: 20px;
-    color: gray;
-}
-
-/* Tables */
-table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
-}
-
-caption {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-th, td {
-  border: 1px solid black;
-  padding: 8px 12px;
-  text-align: center;
-}
-
-th {
-  background-color: white;
-}
-
-/* Hyperlinks inside content */
-article a {
-  color: black;
-}
-
-article a:hover {
-  color: darkred;
-  text-decoration: underline;
-}
-
-/* Images */
-figure {
-  text-align: center;
-  margin: 20px;
-}
-
-img {
-  max-width: 200px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-}
-
