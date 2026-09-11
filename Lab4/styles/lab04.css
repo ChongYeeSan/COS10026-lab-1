@@ -6,7 +6,7 @@ last modified:
 description: 
 */
 
-/*  Step 4: Element selectors  */
+/* Element selectors  */
 
 * {
     font-family: calibri, sans-serif;
@@ -46,7 +46,7 @@ table, th, td {
     color: red;
 }
 
-/*  Class selectors  */
+/* Class selectors  */
 
 .special {
     color: darkorange;
@@ -57,7 +57,7 @@ table, th, td {
     text-align: right;
 }
 
-/*  Contextual selectors  */
+/* Contextual selectors */
 
 nav a {
     text-decoration: none;
