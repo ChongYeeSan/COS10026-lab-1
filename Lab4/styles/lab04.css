@@ -69,7 +69,7 @@ ol ul {
     list-style-type: square;
 }
 
-/*  Pseudo classes  */
+/* Pseudo classes */
 
 aside:hover {
     display: none;
