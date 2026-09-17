@@ -1,0 +1,81 @@
+/*
+filename: 
+author: 
+created: 
+last modified: 
+description: 
+*/
+
+/* Element selectors  */
+
+* {
+    font-family: calibri, sans-serif;
+    color: black;
+}
+
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: turquoise;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*  Group selectors  */
+
+aside, footer {
+    font-style: italic;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*  ID selectors */
+
+#images {
+    text-align: center;
+}
+
+#headings-title {
+    color: red;
+}
+
+/* Class selectors  */
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Contextual selectors */
+
+nav a {
+    text-decoration: none;
+    padding: 0.1em 0.6em;
+    border: 4px solid lightgray;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+/* Pseudo classes */
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
