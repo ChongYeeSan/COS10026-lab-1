@@ -117,3 +117,28 @@ footer p:last-child {
     float: right;
     text-align: right;
 }
+
+dl {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 12px;
+    row-gap: 4px;
+    max-width: 500px;
+}
+
+dt {
+    font-weight: bold;
+    color: green;
+    text-align: right;
+}
+
+dd {
+    margin-left: 0;
+    color: #333;
+}
+
+dt::after {
+    content: " :";
+}
